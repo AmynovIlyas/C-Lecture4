@@ -23,9 +23,9 @@ void PritnImage(int[,] image)
 
 void FillImage(int row, int col)
 {
-    if(res[row, col] == 0)
+    //if(res[row, col] == 0)
     {
-        res[row, col] = 1;
+      //  res[row, col] = 1;
         FillImage(row - 1, col);
         FillImage(row, col - 1);
         FillImage(row + 1, col);
